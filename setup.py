@@ -27,13 +27,13 @@ setup_args = dict(
 
     # About package
     name = 'MrBayeStruConverter',
-    version = '0.0.1',
+    version = '0.0.2',
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=['MrBayes', 'Phylogeny', 'Ribosome'],
     url = 'https://github.com/sgelias/mrbayes-ss-converter.git',
     packages = find_packages(),
-    package_dir={'MrBayeStruConverter': 'mrbayes-ss-converter'},
+    package_dir={'MrBayeStruConverter': 'MrBayeStruConverter'},
 
     # About author
     author = "Samuel Galvão Elias",
